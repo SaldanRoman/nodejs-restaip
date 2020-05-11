@@ -1,0 +1,25 @@
+{
+  "name": "restapi-node",
+  "version": "1.0.0",
+  "description": "rest api server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "Roman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
